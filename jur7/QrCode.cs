@@ -3795,6 +3795,8 @@ namespace jur7
 
             try
             {
+
+                ////asfjlasfjaklskfl//////
                 if (kod_num_textBox.Text != "")
                 {
                     var ext = "select exists(SELECT * FROM products_jur7 where vid_doc='" + vid_doc + "' and year='" + year_textBox.Text + "' and month='" + month_textBox.Text + "' and kod_doc='" + kod_num_textBox.Text + "' and user='" + string_for_otdels + "' ) as ex";

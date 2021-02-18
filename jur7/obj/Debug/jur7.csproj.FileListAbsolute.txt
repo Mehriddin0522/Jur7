@@ -67,3 +67,35 @@ D:\My_works\Jurnals\jur7\jur7\jur7\bin\Debug\QRCoder.dll
 C:\C# projects\jur7\jur7\jur7\obj\Debug\jur7.Ostatok.resources
 C:\C# projects\jur7\jur7\jur7\obj\Debug\jur7.QrCode.resources
 D:\My_works\Jurnals\jur7\jur7\jur7\obj\Debug\jur7.Oborotka_iznos.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\jur7.exe.config
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.exe
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.pdb
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\jur7.exe
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\jur7.pdb
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\CollapsiblePanel.dll
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\MySql.Data.dll
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\QRCoder.dll
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\bin\Debug\Microsoft.mshtml.dll
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.csprojResolveAssemblyReference.cache
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.csproj.jur7.exe.config
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.add_period.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.formirovanie_jur7.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Gruppa.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.gruppa0.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.gruppa_tovar.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Oborotka_iznos.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Ostatok.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.pereotsenka.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.podraz.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Podrazdelenie.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.LoginForm.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.MainForm.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.podraz_fio.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.prixod_document.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Properties.Resources.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.QrCode.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.rasxod_document.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Sklad.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.Spravochnik.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.vnut_per_document.resources
+D:\My_works\Jurnals\jur7Git\jur7\jur7\jur7\obj\Debug\jur7.csproj.GenerateResource.Cache
