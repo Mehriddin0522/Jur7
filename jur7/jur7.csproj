@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D4E9DB5-6872-4ADB-B7B2-28EE14BEEB69}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>jur7</RootNamespace>
+    <AssemblyName>jur7</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CollapsiblePanel">
+      <HintPath>C:\Users\mrmek\Documents\CollapsiblePanelVB_src\CollapsiblePanel\bin\release\CollapsiblePanel.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="QRCoder">
+      <HintPath>C:\Users\mrmek\Documents\Visual Studio 2015\Projects\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\QRCoder.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Doc, Version=5.0.14.54040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\My_current_projects\excel_for_all\Excel_for_all\Excel_for_all\bin\Debug\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.6.41, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\My_current_projects\excel_for_all\Excel_for_all\Excel_for_all\bin\Debug\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=3.9.130.14041, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\My_current_projects\excel_for_all\Excel_for_all\Excel_for_all\bin\Debug\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.XLS, Version=7.9.0.55040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\My_current_projects\excel_for_all\Excel_for_all\Excel_for_all\bin\Debug\Spire.XLS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.25.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\My_current_projects\05.01.2020_NafaqaToshobl\Nafaqa_ToshObl\Nafaqa_ToshObl\bin\Debug\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="add_period.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_period.Designer.cs">
+      <DependentUpon>add_period.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connect.cs" />
+    <Compile Include="DataGridViewMultiColumnComboColumn.cs" />
+    <Compile Include="formirovanie_jur7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formirovanie_jur7.Designer.cs">
+      <DependentUpon>formirovanie_jur7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gruppa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gruppa.Designer.cs">
+      <DependentUpon>Gruppa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gruppa0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gruppa0.Designer.cs">
+      <DependentUpon>gruppa0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gruppa_tovar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gruppa_tovar.Designer.cs">
+      <DependentUpon>gruppa_tovar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Number_To_Words_russian.cs" />
+    <Compile Include="Oborotka_iznos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Oborotka_iznos.Designer.cs">
+      <DependentUpon>Oborotka_iznos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ostatok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ostatok.Designer.cs">
+      <DependentUpon>Ostatok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pereotsenka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pereotsenka.Designer.cs">
+      <DependentUpon>pereotsenka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="podraz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="podraz.Designer.cs">
+      <DependentUpon>podraz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Podrazdelenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Podrazdelenie.Designer.cs">
+      <DependentUpon>Podrazdelenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="podraz_fio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="podraz_fio.Designer.cs">
+      <DependentUpon>podraz_fio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="prixod_document.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="prixod_document.Designer.cs">
+      <DependentUpon>prixod_document.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QrCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QrCode.Designer.cs">
+      <DependentUpon>QrCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rasxod_document.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rasxod_document.Designer.cs">
+      <DependentUpon>rasxod_document.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sklad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sklad.Designer.cs">
+      <DependentUpon>Sklad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Spravochnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spravochnik.Designer.cs">
+      <DependentUpon>Spravochnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vnut_per_document.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vnut_per_document.Designer.cs">
+      <DependentUpon>vnut_per_document.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_period.resx">
+      <DependentUpon>add_period.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formirovanie_jur7.resx">
+      <DependentUpon>formirovanie_jur7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gruppa.resx">
+      <DependentUpon>Gruppa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gruppa0.resx">
+      <DependentUpon>gruppa0.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gruppa_tovar.resx">
+      <DependentUpon>gruppa_tovar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Oborotka_iznos.resx">
+      <DependentUpon>Oborotka_iznos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ostatok.resx">
+      <DependentUpon>Ostatok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pereotsenka.resx">
+      <DependentUpon>pereotsenka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="podraz.resx">
+      <DependentUpon>podraz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podrazdelenie.resx">
+      <DependentUpon>Podrazdelenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="podraz_fio.resx">
+      <DependentUpon>podraz_fio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="prixod_document.resx">
+      <DependentUpon>prixod_document.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="QrCode.resx">
+      <DependentUpon>QrCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rasxod_document.resx">
+      <DependentUpon>rasxod_document.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sklad.resx">
+      <DependentUpon>Sklad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spravochnik.resx">
+      <DependentUpon>Spravochnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vnut_per_document.resx">
+      <DependentUpon>vnut_per_document.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="accounting-icon-14.ico" />
+    <Content Include="Group 3603 %282%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,14 @@
+D:\My_works\Jurnals\jur7\jur7\jur7\bin\Release\jur7.exe.config
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.csproj.jur7.exe.config
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.formirovanie_jur7.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.Gruppa.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.Podrazdelenie.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.Podrazdelenie_fio.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.LoginForm.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.MainForm.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.prixod_document.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.Properties.Resources.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.rasxod_document.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.Sklad.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.vnut_per_document.resources
+D:\My_works\Jurnals\jur7\jur7\jur7\obj\Release\jur7.csproj.GenerateResource.Cache
